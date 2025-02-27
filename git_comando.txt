@@ -1,0 +1,13 @@
+cd caminho/para/o/repositório
+
+git branch #
+
+git checkout nome-da-branch # Mudar o branch
+
+git pull origin nome-da-branch # Puxar as atualizações
+git pull origin main # Atualizações mais recentes main
+git pull origin master
+
+git clone https://github.com/usuário/nome-do-repositório.git
+
+git status
