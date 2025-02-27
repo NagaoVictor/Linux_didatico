@@ -1,0 +1,42 @@
+sudo apt update
+sudo apt install pigpio
+
+sudo pigpiod # ativar o gpio
+
+----------gpio_controle.c------------
+
+#include <stdio.h>
+#include <pigpio.h>
+
+int main() {
+    // Inicializa a biblioteca pigpio
+    if (gpioInitialise() < 0) {
+        printf("Falha ao inicializar a biblioteca pigpio\n");
+        return 1;
+    }
+
+    // Define o pino GPIO 17 como saída
+    gpioSetMode(17, PI_OUTPUT);
+
+    // Acende o LED (seta o pino 17 como HIGH)
+    gpioWrite(17, 1);
+    printf("LED ligado\n");
+
+    // Aguarda 2 segundos
+    time_sleep(2);
+
+    // Desliga o LED (seta o pino 17 como LOW)
+    gpioWrite(17, 0);
+    printf("LED desligado\n");
+
+    // Finaliza a biblioteca pigpio
+    gpioTerminate();
+
+    return 0;
+}
+
+# compilar
+gcc -o gpio_control gpio_control.c -lpigpio -lrt -pthread
+
+# Executar
+sudo ./gpio_control
