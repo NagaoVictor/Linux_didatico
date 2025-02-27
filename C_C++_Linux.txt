@@ -1,0 +1,28 @@
+# instalação do compilador de C/C++ no linux
+sudo apt update
+sudo apt install build-essential
+
+Código em C para teste
+
+---------hello.c--------------
+#include <stdio.h>
+
+int main() {
+    printf("Hello, Raspberry Pi!\n");
+    return 0;
+}
+
+---------hello.cpp--------------
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, Raspberry Pi!" << std::endl;
+    return 0;
+}
+
+gcc hello.c -o hello # Código para compilar em C "Parâmetro -o" para escolher o nome de execução
+
+g++ hello.cpp -o hello # Código para compilar em C++
+
+./hello # Executar
+
