@@ -1,0 +1,55 @@
+Documento de Problema: [Título ou ID do Problema]
+________________________________________
+1. Identificação do Problema
+•	ID do Problema: [ID único]
+•	Título: [Título breve e claro do problema]
+•	Data e Hora: [Data e hora em que o problema foi identificado]
+•	Categoria: [Categoria do problema, ex: Erro de Sistema, Falha de Rede, etc.]
+•	Prioridade/Severidade: [Alta/Média/Baixa e o impacto, ex: Alto/Médio/Baixo]
+________________________________________
+2. Descrição do Problema
+•	Sintomas:
+[Descreva os sintomas observados, como o comportamento incorreto do sistema ou erro específico.]
+•	Impacto:
+[Explique o impacto que o problema causou, ex: "Impossibilidade de acessar a base de dados", "Impacto na operação do sistema", etc.]
+•	Ambiente:
+[Informações sobre o ambiente em que o problema ocorreu, como "ambiente de produção", "versão do sistema", "configuração do servidor", etc.]
+•	Ação Anterior:
+[Descreva quaisquer ações ou alterações feitas antes do problema ocorrer, se houver.]
+________________________________________
+3. Análise do Problema
+•	Causa Raiz:
+[Se já identificada, descreva a causa raiz do problema; caso contrário, forneça hipóteses.]
+•	Passos para Reproduzir:
+[Caso o problema seja replicável, forneça os passos exatos para reproduzir o problema.]
+•	Logs e Mensagens de Erro:
+[Inclua os logs ou mensagens de erro relevantes que foram coletados durante a ocorrência do problema.]
+________________________________________
+4. Ações Tomadas
+•	Solução Inicial:
+[Descreva as primeiras ações tomadas para mitigar o problema ou realizar o diagnóstico.]
+•	Resolução:
+[Quando o problema for resolvido, descreva a solução final que foi aplicada.]
+•	Ações Preventivas:
+[Se aplicável, descreva as medidas que serão implementadas para prevenir problemas semelhantes no futuro.]
+________________________________________
+5. Testes e Validação
+•	Teste de Solução:
+[Explique os testes realizados para garantir que o problema foi resolvido e se a solução funciona conforme esperado.]
+•	Monitoramento Pós-Solução:
+[Se necessário, descreva o monitoramento que será realizado após a implementação da solução para garantir que o problema não ocorra novamente.]
+________________________________________
+6. Conclusões e Lições Aprendidas
+•	Resumo do Problema:
+[Faça um resumo claro sobre o que aconteceu, a solução implementada e o impacto final.]
+•	Lições Aprendidas:
+[Liste quaisquer aprendizados obtidos com este incidente, como áreas de melhoria ou práticas recomendadas.]
+•	Melhorias no Processo:
+[Sugira melhorias nos processos, ferramentas ou configuração para evitar problemas similares no futuro.]
+________________________________________
+7. Feedback e Melhoria Contínua
+•	Revisão de Documentação:
+[Verifique se a documentação está clara e completa. Realize a revisão se necessário.]
+•	Revisão de Políticas e Processos:
+[Caso o problema tenha sido causado por uma falha nos processos ou políticas, inicie uma revisão dessas práticas.]
+

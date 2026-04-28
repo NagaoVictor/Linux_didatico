@@ -1,0 +1,17 @@
+MSconfig ---> System Config    -----> Find a command for select
+Normal, Diagnostic, or Selective. 
+
+Run search
+	lusrmgr.msc --> User Management
+
+compmgmt.msc --> Computer Management
+
+msinfo32 --> System Information
+
+resmon.exe --> resource Monitor
+
+netstat --> TCP/IP resource
+
+/? ----> command for show the options
+
+regedit --> Registry Editor for see the HOTKEY

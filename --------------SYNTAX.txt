@@ -1,0 +1,33 @@
+--------------SYNTAX
+Example
+#include <stdio.h>
+
+int main() {
+  printf("Hello World!");
+  return 0;
+}
+
+--------------COMMENT
+
+// This is a comment
+printf("Hello World!");
+
+/* The code below will print the words Hello World!
+to the screen, and it is amazing */
+printf("Hello World!");
+
+
+--------------VARIABLE
+type variableName = value;
+int myNum = 15;
+printf("Hello World!");
+
+// Declare a variable
+int myNum;
+
+// Assign a value to the variable
+myNum = 15;
+
+--------------
+
+143.110.250.149 port 22
